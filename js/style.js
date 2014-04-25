@@ -15,6 +15,10 @@ $(function(){
         $(li).children('a').css('left',setLeft);
         $(li).children('a').css('top',setTop);
 
+        $(li).click(function(){
+            $('.navigation ul li').removeClass('nav-select');
+            $(this).addClass('nav-select');
+        })
     }
 //    var offLeft = (window.innerWidth- $('.main-container').width()) / 2 + "px";
 //    $('.main-contenter').css("margin-left",offLeft);

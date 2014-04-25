@@ -115,7 +115,12 @@ body{
 .navigation ul li a:hover{
     color: #a2d4fb;
 }
+li.navLi{
+    /*position: relative;*/
+    background: url("../img/nav.png") no-repeat center;
+}
 li.nav-select{
+    /*position: relative;*/
     background: url("../img/nav-select.png") no-repeat center;
 }
 li.nav-select a{
@@ -123,10 +128,6 @@ li.nav-select a{
 }
 li.navLi a{
     position: relative;
-}
-li.navLi{
-    position: relative;
-    background: url("../img/nav.png") no-repeat center;
 }
 .main-container{
     width: 1120px;
