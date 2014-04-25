@@ -1,0 +1,134 @@
+body{
+    font-size: 14px;
+    font-family:"Microsoft YaHei","微软雅黑","Microsoft JhengHei","华文细黑",STHeiti,MingLiu;
+    background: #f0f5f7;
+}
+.banner{
+    z-index: -200;
+}
+.main-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:100px;
+}
+.banner img{
+    height: 150px;
+    width: 100%;
+    /*z-index: -1;*/
+    /*position: absolute;*/
+    /*background: url(../img/banner-bg.png) no-repeat;*/
+}
+.logo{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 20px;
+    left:180px;
+    background: url("../img/logo1.gif") no-repeat;
+}
+.logo img{
+    width: auto;
+}
+.banner-top{
+    /*z-index: 1;*/
+    z-index:100;
+}
+.banner-top .banner-top-text{
+    z-index:100;
+    color: #ffffff;
+    font-weight: bold;
+    /*float: right;*/
+    margin-left: 60%;
+}
+.banner-top-text a{
+    text-decoration: none;
+    color: #5aedf9;
+}
+.banner-top-text a:hover{
+    color: #a2d4fb;
+}
+.banner-top .banner-top-text span{
+    padding: 5px;
+    color: #ffffff;
+}
+.navigation{
+    z-index: 100;
+    /*margin-left: 15%;*/
+}
+/*.navigation div{*/
+    /*display: inline-block;*/
+/*}*/
+
+.navigation ul{
+    /*float: left;*/
+    /*left: 80px;*/
+    /*width: auto;*/
+    /*width: 52%;*/
+    position: relative;
+    padding: 0;
+    /*margin-left: 10%;*/
+    margin-top: -20px;
+    color: #ffffff;
+}
+.search{
+    z-index: 100;
+    margin-top:8px;
+    position: relative;
+    /*float: right;*/
+    /*right: 80px;*/
+    height: 50px;
+    width: 350px;
+}
+.search *{
+    display:inline-block ;
+}
+.search span{
+    /*position: relative;*/
+    margin-left: -30px;
+}
+.search-left{
+    border: 2px #f0f4f6 solid;
+    padding-left: 20px;
+    /*width: 320px;*/
+    height: 40px;
+    border-radius: 20px;
+    background: #53a9e0;
+    /*background: url("../img/search-left.png") no-repeat;*/
+}
+.search-right-off{
+    width: 46px;
+    background: url("../img/search-right-off.png") no-repeat;
+}
+.navigation ul li{
+    width: 100px;
+    display: inline-block;
+    list-style: none;
+    height: 100px;
+}
+.navigation ul li a{
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation ul li a:hover{
+    color: #a2d4fb;
+}
+li.nav-select{
+    background: url("../img/nav-select.png") no-repeat center;
+}
+li.nav-select a{
+    position: relative;
+}
+li.navLi a{
+    position: relative;
+}
+li.navLi{
+    position: relative;
+    background: url("../img/nav.png") no-repeat center;
+}
+.main-container{
+    width: 1120px;
+}
+
