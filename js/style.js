@@ -22,4 +22,9 @@ $(function(){
     }
 //    var offLeft = (window.innerWidth- $('.main-container').width()) / 2 + "px";
 //    $('.main-contenter').css("margin-left",offLeft);
+    var w1 = $('.left-container-2-content').width();
+    var w2 = $('.left-container-2-header').width();
+    var ww =( w2-w1 ) /2;
+    console.log("w1: " + w1+"\n" + "w2: " + w2+ "\n"+"ww: "+ww);
+    $('.left-container-2-content').css({'margin-left': ww,'margin-right': ww});
 })
